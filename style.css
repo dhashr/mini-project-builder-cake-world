@@ -5,7 +5,185 @@
 *{
     margin:0;
     padding:0;
+    background-color: rgb(187, 95, 187);
 }
 
-/* Fill your code*/
 
+/* Fill your code*/
+.stripes{
+    background-color:  rgb(85, 14, 14);
+    margin-bottom: 2.5cm;
+    align-items: center;
+    height: 2.1cm;
+    background: repeating-linear-gradient(
+        -45deg,
+        grey,
+        rgb(85, 14, 14) 4px,
+        rgb(85, 14, 14) 65px,
+        rgba(0, 0, 0, 0.3) 5px
+    
+    );
+    
+}
+.logo{
+    background-color: black;
+    border: solid black;
+    border-radius: 100px;
+    width: 6cm;
+    height: 4cm;
+    align-items: center;
+    margin-left: 13.5cm;
+    position: relative;
+    bottom: 5cm;
+}
+#cake{
+    background-color: black;
+    margin-left: 35px;
+    position: absolute;
+}
+p{
+    background-color: black;
+    color: white;
+    margin-left: 35px;
+    position: absolute; 
+    top: 3cm;  
+    left: 0.5cm;
+    font-family: 'Acme';
+    font-weight: 500;
+    font-size: 26px;
+   
+}
+.price-board{
+    position: relative;
+    margin-left: 2.2cm; 
+    bottom: 2.5cm;
+}
+.price-items1{
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    color: white;
+    position: absolute;
+    margin-left: 3.7cm;
+    bottom: 5.8cm;
+
+}
+#price-list{
+    text-align: center;
+}
+.bill-board{
+    position: relative; 
+    margin-left: 24cm; 
+    bottom: 10.5cm;
+}
+.bill-items1{
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    color: white;
+    position: absolute;
+    bottom: 5.2cm;
+    margin-left: 25.5cm;   
+}
+#bill-list{
+    text-align: center;
+}
+.buttons-container{
+    background-color:  rgb(85, 14, 14);
+    display: flex;
+    align-items: center;
+    height: 2.8cm;
+    bottom: 10cm;
+}
+.btn{
+    text-align: center;
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    color: white;
+    border: solid rgb(143, 137, 137) ;
+    border-radius: 4px;
+    padding: 3px;
+    width: 78px;
+    
+}
+#chocobtn{
+    background-color:rgb(187, 95, 187);  
+    margin-left: 3cm;
+}
+#berrybtn{
+    background-color:rgb(187, 95, 187);  
+    margin-left: 100px;
+}
+#scotchbtn{
+    background-color:rgb(187, 95, 187);  
+    margin-left: 100px;
+}
+#vannilabtn{
+    background-color:rgb(187, 95, 187);  
+    margin-left: 100px;
+}
+#velvetbtn{
+    background-color:rgb(187, 95, 187);  
+    margin-left: 100px;
+}
+#buybtn{
+    background-color: rgb(127, 214, 28);
+    color: black;
+    margin-left: 100px;
+}
+.cakes{
+    position: absolute;
+    margin-left: 13.5cm;
+    bottom: 1cm; 
+    border-radius: 15px;
+    width: 4cm;
+    height: 8cm;
+}
+#layer1{
+    border-radius: 12px;
+    height: 50px;
+    width: 300px;
+    /* visibility: hidden; */
+}
+
+#layer2{
+    border-radius: 12px;
+    height: 50px;
+    width: 250px;
+    margin-left: 25px;
+    /* visibility: hidden; */
+}
+
+#layer3{
+    border-radius: 12px;
+    height: 50px;
+    width: 200px;
+    margin-left: 45px;
+    /* visibility: hidden; */
+}
+
+#layer4{
+    border-radius: 12px;
+    height: 50px;
+    width: 150px;
+    margin-left: 65px;
+    /* visibility: hidden; */
+}
+
+#layer5{
+    border-radius: 12px;
+    height: 50px;
+    width: 100px;
+    margin-left: 90px;
+    /* visibility: hidden; */
+}
+#candle{
+    width: 70px;
+    margin-left: 105px;
+    height: 50px;
+    visibility: hidden;
+}
